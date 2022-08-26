@@ -1,3 +1,4 @@
+<#File Destination %appdata%\Microsoft\Windows\Start Menu\Programs\Startup #>
 Add-Type -AssemblyName PresentationFramework
 $result = [System.Windows.MessageBox]::Show('You have Autism', 'Daily Reminder', 'YesNo', 'Information')
 
